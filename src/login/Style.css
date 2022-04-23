@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+/* Reset no CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/src/login/img/background.png);
+    font-size: 100%;
+
+}
+
+.container {
+    width: 400px;
+    height: 470px;
+
+    background: #3F011E;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+    box-shadow: black (5px, 5px, 5px)
+}
+
+.title {
+    /*<h1> Login </h1> */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    position: relative;
+    padding: 3rem 4rem 0rem;
+    font-weight: 700;
+
+
+}
+
+.input-group {
+    /* Grupo dos inputs do Email e Senha e Labels */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+
+}
+
+.input-box {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input {
+    display: flex;
+    align-items: center;
+
+    background: #770038;
+    width: 350px;
+    color: #ffffff;
+    outline: none;
+    margin: 0.6rem;
+    padding: 0.8rem 35px;
+    font-size: 14px;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000000 (50%);
+
+
+}
+
+
+.input-box label {
+    color: #ffffff;
+    padding: 0px 20px;
+
+}
+
+.remember {
+    /* div Lembre de mim + esqueceu sua senha */
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 0rem 1rem;
+    color: white;
+}
+
+.btn-signin {
+    /*Botão de entrar*/
+    background: #02E233;
+    width: 350px;
+    height: 40px;
+
+    border: none;
+    padding: auto;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    background: #01b427;
+}
+
+.text-signup {
+    /* p Novo por aqui... */
+    color: #02E233;
+    font-family: 'inter', sans-serif;
+    font-size: 12px;
+}
+
+.btn-signup {
+    /* Botão cadastrar-se */
+    background: #FF007A;
+    width: 350px;
+    height: 40px;
+
+    border: none;
+    padding: auto;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+    cursor: pointer;
+
+}
+
+.btn-signup:hover {
+    background: #bb025b;
+    cursor: pointer;
+}
+
+.btns-group {
+    /* Grupo dos botões para alinha-los */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.p-signup:hover {
+    cursor: pointer;
+}
+
+.p-forget:hover {
+    cursor: pointer;
+}
