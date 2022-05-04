@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
-/* Reset no CSS  */
 
 * {
     margin: 0;
@@ -30,7 +29,6 @@ body {
 }
 
 .title {
-    /*<h1> Login </h1> */
     font-family: 'Poppins', sans-serif;
     color: white;
 
@@ -42,7 +40,6 @@ body {
 }
 
 .input-group {
-    /* Grupo dos inputs do Email e Senha e Labels */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -70,7 +67,7 @@ body {
 
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #000000 (50%);
+    
 
 
 }
@@ -83,7 +80,7 @@ body {
 }
 
 .remember {
-    /* div Lembre de mim + esqueceu sua senha */
+
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     display: flex;
@@ -94,7 +91,7 @@ body {
 }
 
 .btn-signin {
-    /*Botão de entrar*/
+
     background: #02E233;
     width: 350px;
     height: 40px;
@@ -111,17 +108,18 @@ body {
 
 .btn-signin:hover {
     background: #01b427;
+    cursor: pointer;
 }
 
 .text-signup {
-    /* p Novo por aqui... */
+
     color: #02E233;
     font-family: 'inter', sans-serif;
     font-size: 12px;
 }
 
 .btn-signup {
-    /* Botão cadastrar-se */
+  
     background: #FF007A;
     width: 350px;
     height: 40px;
@@ -143,7 +141,7 @@ body {
 }
 
 .btns-group {
-    /* Grupo dos botões para alinha-los */
+
     display: flex;
     flex-direction: column;
     align-items: center;

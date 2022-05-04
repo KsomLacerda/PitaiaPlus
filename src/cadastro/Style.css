@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+/* Reset no CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(/src/cadastro/img/background.png);
+    font-size: 100%;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    background: #3F011E;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: black (5px, 5px,5px);
+    display: flex;
+    flex-direction: row;
+}
+
+.form {
+    position:relative;
+    width: 400px;
+    height: 440px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-group {
+    color: white;
+    font-family: 'inter', sans-serif;
+    position: relative;
+    padding: 1rem ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.input-box input {
+
+    background: #770038;
+    width: 350px;
+    color: #ffffff;
+    outline: none;
+    margin: 0.6rem;
+    padding: 0.8rem 35px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000000 (50%);
+}
+.input-box label {
+    padding-left: 1rem;
+
+}
+
+.form-signup {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end ;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+.btn-signup {
+    position: relative;
+    width: 350px;
+    height: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #02E233;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    background: #01b427;
+}
+
+.form-image {
+    position: relative;
+    background: #8DFFA6 ;
+    width:400px;
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    color: #FF007A;
+
+
+}
+
+.pitaia-img {
+    background-color: #62bb58;
+    width: 300px;
+    height: 200px;
+
+}
+
+.btn-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-signin {
+    position: relative;
+    color: white;
+    background-color: #FF007A;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    background: #bb025b;
+    cursor: pointer;
+}
