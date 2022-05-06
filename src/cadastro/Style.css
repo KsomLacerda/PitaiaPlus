@@ -136,8 +136,11 @@ body {
 }
 
 .pitaia-img {
-    background-color: #62bb58;
-    width: 300px;
+    
+    background-image: url(/assets/PitaiaLogo.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    width: 150px;
     height: 200px;
 
 }
