@@ -11,7 +11,8 @@
 }
 
 body {
-    background-image: url(/src/cadastro/img/background.png);
+    background-image: url(/assets/background.png);
+    background-size:100%;
     font-size: 100%;
 }
 

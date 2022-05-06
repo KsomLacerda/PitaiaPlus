@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    background-image: url(/assets/Main\ Screen.png);
+    background-size: 100% 200vh;
+    font-family: 'inter', sans-serif;
+
+}
+.main {
+    display:flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    /* position: fixed; */
+    width: 80px;
+    height: 100vh;
+    position: sticky;
+    background-color: #3F011E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+
+    
+}
+
+.sidebar:hover {
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar:hover label {
+    display: block;
+}
+
+.sidebar-items {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-photo {
+    width:40px;
+    height:40px
+}
+/* Esconder as os textos da sidebar */
+/* .sidebar-items label, h3 {
+    display: none;
+} */
+
+/* titulo e as fotos dos animes */
+.anime-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    height:0;
+
+}
+
+.anime-title {
+    color:white;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.anime-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 20px;
+    margin-bottom: 20px;
+}
+/* 
+.animes-group::-webkit-scrollbar {
+    width: 0;
+} */
+.onepiece, .kimetsu, .shingeki, .jujutsu, 
+.boruto, .blackclover, .hxh {
+    
+    background-size: 100%;
+    cursor: pointer;
+    width:168px;
+    height:250px;
+    
+}
+
+.onepiece {
+    background-image: url(/src/main/img-animes/Onepiece.jpg);
+    background-size: 100%;
+}
+
+.kimetsu {
+    background-image: url(/src/main/img-animes/DemonSlayer.jpg);
+    background-size: 100%;
+}
+
+.shingeki {
+    background-image: url(/src/main/img-animes/shingeki.jpg);
+    background-size: 100%;
+}
+
+.jujutsu{
+        background-image: url(/src/main/img-animes/JujutsuK_Poster11.png);
+        background-size: 100%;
+}
+.boruto{
+    background-image: url(/src/main/img-animes/Boruto_Naruto_Next_Generations_Capa.png);
+    background-size: 100%;
+}
+.blackclover {
+    background-image: url(/src/main/img-animes/blackclover.jpg);
+    background-size: 100%;
+}
+
+.hxh{
+    background-image: url(/src/main/img-animes/hxh.jpg);
+    background-size: 100%;
+
+}
+
+.filme-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 20px;
+}
+
+.click {
+    background-size: 100%;
+    cursor: pointer;
+    width:168px;
+    height:250px;
+    background-image:url(/src/main/img-fimes/unknown.png);
+    background-size: 100%;
+}
