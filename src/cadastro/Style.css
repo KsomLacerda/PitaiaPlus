@@ -154,6 +154,7 @@ body {
 }
 
 .btn-signin {
+    font-family: 'inter', sans-serif;
     position: relative;
     color: white;
     background-color: #FF007A;

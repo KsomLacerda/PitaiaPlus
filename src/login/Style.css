@@ -92,11 +92,12 @@ body {
 }
 
 .btn-signin {
-
+    font-family: 'Inter', sans-serif;
     background: #02E233;
     width: 350px;
     height: 40px;
-
+    text-decoration: none;
+    
     border: none;
     padding: auto;
     color: white;
@@ -120,7 +121,7 @@ body {
 }
 
 .btn-signup {
-  
+    font-family: 'inter', sans-serif;
     background: #FF007A;
     width: 350px;
     height: 40px;
@@ -131,7 +132,9 @@ body {
     border-radius: 10px;
     font-size: 20px;
 
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 
 }
