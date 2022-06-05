@@ -22,10 +22,10 @@ body {
 }
 
 .sidebar {
-    /* position: fixed; */
+    /* position:sticky;  */
     width: 80px;
-    height: 100vh;
-    position: sticky;
+    height: 200vh;
+    position: block;
     background-color: #3F011E;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ body {
 
 .sidebar:hover {
     width: 400px;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,9 +58,27 @@ body {
     height:40px
 }
 /* Esconder as os textos da sidebar */
-/* .sidebar-items label, h3 {
+.sidebar-items label, .username {
     display: none;
-} */
+    color:#fff;
+    align-items: flex-start;
+    transition: 0.5s;
+    
+} 
+.sidebar-items:hover label, h3 {
+    display:block ;
+    color:#fff;
+    transition: 0.5s;
+}
+/* Alinha o icon com o texto da sidebar */
+.inicio-icon, .categoria-icon, .anime-icon, .filme-icon, .ml-icon {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    cursor: pointer;
+    align-items: flex-end;
+}
 
 /* titulo e as fotos dos animes */
 .anime-container {
@@ -133,7 +151,13 @@ body {
 
 }
 
-.filme-group {
+.animation-title {
+    color:white;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.animation-group {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -141,11 +165,43 @@ body {
     gap: 20px;
 }
 
-.click {
+.animation-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sonic, .macaco, .detona, .walle, .kick, .spider {
     background-size: 100%;
     cursor: pointer;
     width:168px;
     height:250px;
-    background-image:url(/src/main/img-fimes/unknown.png);
+}
+.sonic {
+    background-image:url(/src/main/img-animation/sonic.png);
+    background-size: 100%;
+
+}
+.walle {
+    background-image:url(/src/main/img-animation/walle.png);
+    background-size: 100%;
+}
+.detona {
+    background-image:url(/src/main/img-animation/detonaralph.png);
+    background-size: 100%;
+}
+.macaco {
+    background-image:url(/src/main/img-animation/macaco.png);
+    background-size: 100%;
+}
+.kick {
+    background-image:url(/src/main/img-animation/kick.png);
+    background-size: 100%;
+}
+.spider {
+    background-image:url(/src/main/img-animation/spider.png);
     background-size: 100%;
 }

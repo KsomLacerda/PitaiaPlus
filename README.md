@@ -3,3 +3,6 @@
 
 <img src="/assets/Login.png">
 <hr>
+<img src="/assets/Cadastro.png">
+<hr>
+<img src="/assets/Home.png">
